@@ -1,4 +1,4 @@
 #!/bin/sh
 
 docker build \
--t saiyato/snapserver:development .
+-t ben/snapserver:development .
