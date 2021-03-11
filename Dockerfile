@@ -1,7 +1,7 @@
 # Install SnapServer on minimal OS
 FROM amd64/alpine:latest
 
-MAINTAINER Saiyato
+MAINTAINER inoni
 WORKDIR /root
 
 RUN apk -U add git bash build-base asio-dev avahi-dev flac-dev libvorbis-dev alsa-lib-dev opus-dev soxr-dev cmake \
